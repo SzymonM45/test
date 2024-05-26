@@ -1,10 +1,14 @@
 type Props = {
-	name: string
+  name: string
 }
 const App = ({ name }: Props) => {
-	const a = 10
+  var a = 10
 
-	return <div>{name}</div>
+  return (
+    <div>
+      {name} {a}
+    </div>
+  )
 }
 
 export { App }

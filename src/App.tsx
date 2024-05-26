@@ -2,7 +2,7 @@ type Props = {
   name: string
 }
 const App = ({ name }: Props) => {
-  var a = 10
+  const a = 10
 
   return (
     <div>

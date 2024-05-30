@@ -2,11 +2,11 @@ type Props = {
   name: string
 }
 const App = ({ name }: Props) => {
-  const a = 10
+  const a: string = 'Dolor sit amet and lorem opsum'
 
   return (
     <div>
-      {name} {a}
+      {name}
     </div>
   )
 }
